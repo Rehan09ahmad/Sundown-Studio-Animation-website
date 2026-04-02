@@ -11,10 +11,11 @@
 
 }
 html, body{
-    height: auto;
+    height: 100%;
 }
-#data-scroll-container{
-   min-height: 100vh;
+
+#main{
+   min-height: auto;
     width: 100%;
 }
 
@@ -153,7 +154,6 @@ nav{
     animation-iteration-count: infinite;
     animation-direction: alternate ;
 }
-
 
 
 @keyframes anime1{
